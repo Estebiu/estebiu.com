@@ -1,0 +1,91 @@
+:root {
+	background: #181825;
+	text: #cdd6f4;
+}
+
+
+
+h1 {
+  color: #f9e2af;
+  text-align: center;
+}
+h2 {
+	color: #fab387;
+	text-align: center;
+}
+h3 {
+	color: var(text);
+}
+body {
+	color: white;
+	background-color: var(background);
+	margin: 0;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*All text*/
+a {
+	text-decoration: none;
+}
+/*normal, non visited link */
+a:link {
+	color: #cba6f7;
+}
+
+/* visited link */
+a:visited {
+	color: #cba6f7;
+}
+
+/* mouse over link */
+a:hover {
+	color: #cdd6f4;
+	background:#cba6f7;
+}
+
+/* selected link */
+a:active {
+	color: #a6e3a1;
+}
+
+.contact {
+	border-left: 4px solid #cba6f7;
+	background-color: #181825;
+	list-style-type: none;
+	padding: 1px 14px;
+}
+
+.contact li.Matrix{
+	max-width: 190px;
+}
+.contact li.Matrix:hover{
+	color: #181825;
+    background:#cba6f7;
+}
+
+
+
+
+
+.utilities {
+	border-left: 4px solid #f9e2af;
+	list-style-type: none;
+	padding: 1px 14px;
+}
+
+.utilities li.elements {
+	color: var(text);
+	padding-bottom: 23px;
+}
+
+
+
+.services {
+	border-left: 4px solid #f9e2af;
+	list-style-type: none;
+	padding: 1px 14px;
+}
